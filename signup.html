@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head><title>SignUp</title></head>
+<body>
+<center><h1>Welcome to Project Monitoring System</h1>
+	<form name="details" method="post" action="insert.php" ><br><br><br>
+		<fieldset>
+		<legend>Login Details</legend>
+		Username:<input type="text" name="username" required><br><br><br>
+		Password:<input type="password" name="password" required><br><br><br>
+		</fieldset>
+		<fieldset>
+		<legend>Project Details</legend>
+		Project Number:<input type="text" name="pro_num" required><br><br><br>
+		Project Name:<input type="text" name="pro_name" required><br><br><br>
+		Department:
+		<select name="dept">
+			<option value="cse">CSE</option>
+			<option value="it">IT</option>
+			<option value="ft">FT</option>
+			<option value="mech">MECH</option>
+			<option value="eee">EEE</option>
+			<option value="ece">ECE</option>
+			<option value="civil">CIVIL</option>
+		</select><br><br><br>
+		Mentor Name:<input type="text" name="men_name" required><br><br><br>
+		Mentor Mail-id:<input type="email" name="men_mail" required><br><br><br>
+		</fieldset>
+		<fieldset>
+		<legend>Team Members</legend>
+		Member 1:<input type="text" name="member1" required><br><br><br>
+		Member 2:<input type="text" name="member2" required><br><br><br>
+		Member 3:<input type="text" name="member3" required><br><br><br>
+		</fieldset>
+		<input type="submit" value="Submit">
+		<input type="reset" value="Reset">
+	</form>
+	
+</center>
+</body>
+</html>
